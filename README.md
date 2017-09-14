@@ -1,1 +1,6 @@
-echo "# Calculate_state_feedback_gain" 
+
+# Calculate_state_feedback_gain
+
+MATLABを用いた状態フィードバックゲインの導出
+
+極配置法と最適レギュレータ法の2通りを用いた
