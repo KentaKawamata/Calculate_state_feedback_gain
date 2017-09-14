@@ -12,22 +12,6 @@ g     = 9.81;               %èdóÕ[m/s^2]
 
 x0 = [0 0 12 2];
 
-%D = ((M+m)*(m*d*d + Ig)) - (m*d)^2;
- %D = Ig*(M+m)+M*m*l^2;
-% a1 = -(m*m*g*d*d)/D;
-% a2 = ((M+m)*m*g*d)/D;
-% b1 = ((m*d*d)+Ig)/D;
-% b2 = -(m*d)/D;
-% f0 = (Tmax*G)/wheel;
-% f1 = -(Tmax*G*G*G)/(Omax*wheel*wheel);
- 
-%a1 = -0.0494;
-%a2 = 8.3555;
-%b1 = 1.3768;
-%b2 = -1.1668;
-%f0 = 1.8775;
-%f1 = -0.0101;
-
 f0 = (Tmax*G)/wheel;
 f1 = -(Tmax*G^3)/(Omax*wheel^2);
 p = Ig*(M+m)+M*m*l^2;         %denominator for the A and B matrices
